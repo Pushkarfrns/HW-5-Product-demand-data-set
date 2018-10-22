@@ -39,33 +39,17 @@ Loaded the Historical Product Demand.csv in a dataframes.
 
 **My findings -->**
 
-*  There are total 2160 unique products.
-# The most popular product is Product_1359 with 16936 frequency.
-# Only 4 unqique warehouses
-# All in all total 33 unique Product_Category
+* There are total 2160 unique products.
+* The most popular product is Product_1359 with 16936 frequency.
+* Only 4 unqique warehouses
+* All in all total 33 unique Product_Category
+* Category_019 has maximum of 470266 produtcs.
+* Whse_J has maximum and Whse_C has minimum products respectively.
+* On date 2013/9/27 maximum of 2075 orders were placed.
+* In year 2013, maximum number of 218298 orders were placed.
+* Most/ maximum of 96619 orders were demand/placed in the month of October.
+* On every 1st of month, maximum orders were demand.
 
-* On dates 2013-04-17, 2016-11-25, 2014-04-16, 2009-01-02, 2011-04-13	maximum number of 15 matches were played.
-* For season 2014 and 2016 maximum number of matches were playes i.e. 1319 matches.
-* Among all the team1, DNA has the maximum mean score of 125.132653
-* Among all the team2, WSA has the maximum mean score of 120.421053
-* In year 2012, maximum number of 1474 matches were played.
-* For all the seasons, the maximum number of matches were played in March i.e. 11877 matches.
-* Maximum number of matches were played/held during start or end of the month.
+ARIMA: Time Series Forecasting
 
-Random Forest: Regression Analysis
 
-* In order to apply random forest, changed the datatype of team1 and team2 column (object type) to int
-* Find the labels and stored them separately i.e. the score we wanted to predict.
-* Remove the labels from the features
-* Saving feature names for later use.
-* To convert the dataframe to numpy array.
-* Used Skicit-learn to split data into training and testing sets.
-* Imported the random forest model.
-* Instantiated the model with 1000 decision trees
-* Trained the model on training data
-* Used the forest's predict method on the test data
-* Calculated the absolute errors
-* Printed the mean absolute error (mae) i.e. 5.16 degree
-* Calculated mean absolute percentage error (MAPE)
-
-*Accuracy: 94.71 %.*
