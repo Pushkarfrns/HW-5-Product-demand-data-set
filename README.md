@@ -25,15 +25,15 @@ Loaded the Historical Product Demand.csv in a dataframes.
 
 * **Additional Information #5: Created 3 new columns namely year, month and date for each of the order placed.**
 
-* **Additional Information #6: To find for each year how many orders were placed. **
+* **Additional Information #6: To find for each year how many orders were placed.**
 * Converted the above new data into a dataframe (df_prod_new_Year )
 * **Viusalization:** Year wise order demand distribution
 
-* **Additional Information #7: To find for each month how many orders were placed. **
+* **Additional Information #7: To find for each month how many orders were placed.**
 * Converted the above new data into a dataframe (df_prod_new_Month )
 * **Viusalization:** Month wise order demand distribution
 
-* **Additional Information #8: To find for each day how many orders were placed. **
+* **Additional Information #8: To find for each day how many orders were placed.**
 * Converted the above new data into a dataframe (df_prod_new_date )
 * **Viusalization:** Day wise order demand distribution
 
@@ -50,6 +50,18 @@ Loaded the Historical Product Demand.csv in a dataframes.
 * Most/ maximum of 96619 orders were demand/placed in the month of October.
 * On every 1st of month, maximum orders were demand.
 
-ARIMA: Time Series Forecasting
+**ARIMA: Time Series Forecasting**
+
+* Forecasted for the warehouseA demand.
+* Removed the unnecessary columns from the dataframe.
+* Indexing with Time Series Data
+* Visualizing Furniture Sales Time Series Data
+* Visualize the data using time-series decomposition: decompose our time series into three distinct components: trend, seasonality, and noise
+* ARIMA, which stands for Autoregressive Integrated Moving Average.
+* ARIMA(p, d, q): parameters account for seasonality, trend, and noise in data
+* parameter Selection for our warehouseA demand ARIMA Time Series Model.
+* Fitting the ARIMA model
+* Validating forecasts
+* Mean Squared Error of our forecasts 
 
 
