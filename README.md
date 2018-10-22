@@ -5,8 +5,8 @@ predict sales/demand for wahrehouseA.
 
 Loaded the Historical Product Demand.csv in a dataframes.
 
-* Additional Information #1: To find total number of products that belong to each category.
-*Viusalization
+* *Additional Information #1*: To find total number of products that belong to each category.
+* Viusalization: Plotted a graph, number of products against each category of products
 Converted the above new data into a new data frame (df_nba_elo_No_of_matches_each_day).
 
 Saved the resulted dataframe in a csv (AdditionalInfo#1_Count_Of_Match_Played_dateWise.csv)
