@@ -6,13 +6,13 @@ predict sales/demand for wahrehouseA.
 Loaded the Historical Product Demand.csv in a dataframes.
 
 * **Additional Information #1: To find total number of products that belong to each category**.
-* **Viusalization:** Plotted a graph, number of products against each category of products
+* **Visualization:** Plotted a graph, number of products against each category of products
 * Converted the above new data into a new data frame (df_prod_ProductPerCategory).
 * Saved the resulted dataframe in a csv (AdditionalInfo#1_NoOfProductEachCategory.csv.csv)
 
 * **Additional Information #2: To find total number of product category that belong to each warehouse.**
 * Converted the above new data into a dataframe (df_prod_CategoryPerWHouse).
-* **Viusalization:** Plotted a graph, number of category that belongs to each warehouse.
+* **Visualization:** Plotted a graph, number of category that belongs to each warehouse.
 
 * **Additional Information #3: For each Warehouse to find corresponsing Product_Category and for each product category**
   **find total product. **
@@ -21,21 +21,21 @@ Loaded the Historical Product Demand.csv in a dataframes.
 
 * **Additional Information #4: To find the date on which maximum and minimum orders where placed.**
 * Converted the above new data into a dataframe (df_prod_OrderPerDay)
-* **Viusalization:** Date wise order demand distribution
+* **Visualization:** Date wise order demand distribution
 
 * **Additional Information #5: Created 3 new columns namely year, month and date for each of the order placed.**
 
 * **Additional Information #6: To find for each year how many orders were placed.**
 * Converted the above new data into a dataframe (df_prod_new_Year )
-* **Viusalization:** Year wise order demand distribution
+* **Visualization:** Year wise order demand distribution
 
 * **Additional Information #7: To find for each month how many orders were placed.**
 * Converted the above new data into a dataframe (df_prod_new_Month )
-* **Viusalization:** Month wise order demand distribution
+* **Visualization:** Month wise order demand distribution
 
 * **Additional Information #8: To find for each day how many orders were placed.**
 * Converted the above new data into a dataframe (df_prod_new_date )
-* **Viusalization:** Day wise order demand distribution
+* **Visualization:** Day wise order demand distribution
 
 **My findings -->**
 
