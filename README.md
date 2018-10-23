@@ -55,7 +55,7 @@ Loaded the Historical Product Demand.csv in a dataframes.
 * Forecasted for the warehouseA demand.
 * Removed the unnecessary columns from the dataframe.
 * Indexing with Time Series Data
-* Visualizing Furniture Sales Time Series Data
+* Visualizing WarehouseA Sales Time Series Data
 * Visualize the data using time-series decomposition: decompose our time series into three distinct components: trend, seasonality, and noise
 * ARIMA, which stands for Autoregressive Integrated Moving Average.
 * ARIMA(p, d, q): parameters account for seasonality, trend, and noise in data
